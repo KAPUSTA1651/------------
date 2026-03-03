@@ -1,11 +1,16 @@
 body{
     background-color: #30138d;
-    width: 100%;
+    width: 100vh;
     height: 100px;
 }
 
-#title{
-    color: #0982d8;
+#title {
+  color: #0982d8;  
+  font-family: "Black Ops One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  padding-left: 50vh;
+
 }
 
 #main-text-p{
@@ -15,3 +20,4 @@ body{
     height: 150px;
     
 }
+
