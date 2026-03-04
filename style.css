@@ -1,23 +1,34 @@
 body{
     background-color: #30138d;
-    width: 100vh;
+    margin: 0px;
+    padding: 0px;
+}
+
+.header{
+    width: 100%;
     height: 100px;
-}
-
-#title {
-  color: #0982d8;  
-  font-family: "Black Ops One", system-ui;
-  font-weight: 400;
-  font-style: normal;
-  padding-left: 50vh;
+    text-align: center;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    margin-bottom: -40px
 
 }
 
-#main-text-p{
+#title{
+    color: #0982d8;  
+    font-family: "Black Ops One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 100px;
+    margin: 0;
+}
+
+
+.main-text{
     color: #a19c9c;
+    text-align: center;
+    width: 100%;
 }
-.main-text {
-    height: 150px;
-    
-}
+
 
